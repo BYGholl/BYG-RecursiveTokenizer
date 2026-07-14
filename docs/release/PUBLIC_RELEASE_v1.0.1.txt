@@ -1,0 +1,5 @@
+﻿Public release: v1.0.1
+Internal engine: v4.6-real-dataset-benchmark-suite
+Magic: BYG46DB
+Purpose: GitHub repository layout cleanup.
+Algorithm/source line: unchanged from v1.0.0 public source package.
