@@ -1,0 +1,47 @@
+{
+  "current_magic": "BYG46DB",
+  "current_version": "v4.6-real-dataset-benchmark-suite",
+  "schema": "compatibility.matrix.v1",
+  "policy": "current-only reader; unsupported older magic values are deterministically rejected with ERROR: bad magic until explicit migration readers are implemented",
+  "supported_read_magic": [
+    "BYG46DB"
+  ],
+  "unsupported_rejected_magic": [
+    "BYG45DG",
+    "BYG44FW",
+    "BYG43NE",
+    "BYG42RB",
+    "BYG41PK",
+    "BYG40RC",
+    "BYG39LH",
+    "BYG38JS",
+    "BYG37CV",
+    "BYG36MA",
+    "BYG352G",
+    "BYG34FC",
+    "BYG301C"
+  ],
+  "migration_notes": "v4.6 real dataset benchmark suite preserves deterministic old-magic rejection while adding diagnostic and dataset benchmark coverage.",
+  "accepted_magic": [
+    "BYG46DB"
+  ],
+  "current_supported_magic": [
+    "BYG46DB"
+  ],
+  "version": "v4.6-real-dataset-benchmark-suite",
+  "unsupported_old_magic": [
+    "BYG45DG",
+    "BYG44FW",
+    "BYG43NE",
+    "BYG42RB",
+    "BYG41PK",
+    "BYG40RC",
+    "BYG39LH",
+    "BYG38JS",
+    "BYG37CV",
+    "BYG36MA",
+    "BYG352G",
+    "BYG34FC",
+    "BYG301C"
+  ]
+}
