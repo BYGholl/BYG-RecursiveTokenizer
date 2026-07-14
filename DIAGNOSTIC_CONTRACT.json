@@ -1,0 +1,35 @@
+{
+  "schema": "byg.diagnostic_contract.v1",
+  "version": "v4.6-real-dataset-benchmark-suite",
+  "magic": "BYG46DB",
+  "command": "diagnose <input.byg> [report] [--json]",
+  "json_schema": "byg.diagnose.v1",
+  "required_fields": [
+    "schema",
+    "tool",
+    "version",
+    "format",
+    "command",
+    "ok",
+    "selected_backend",
+    "payload_submode",
+    "decision_reason",
+    "container_payload_flag",
+    "template_id",
+    "original_size",
+    "checksum_fnv1a32",
+    "checksum_verify",
+    "header_size",
+    "payload_size",
+    "container_size",
+    "zip_dependency",
+    "zip_dependency_available",
+    "roundtrip_ok"
+  ],
+  "text_markers": [
+    "diagnostic_dump=OK",
+    "checksum_verify=OK",
+    "roundtrip_ok=true"
+  ],
+  "notes": "Diagnostic dump mode is read-only and exposes header/payload/backend/checksum decisions for debugging BYG containers."
+}
