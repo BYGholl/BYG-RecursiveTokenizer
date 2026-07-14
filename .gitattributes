@@ -1,0 +1,6 @@
+﻿# Keep GitHub language statistics focused on the C++ implementation.
+scripts/*.ps1 linguist-generated=true
+scripts/*.sh linguist-generated=true
+*.ps1 linguist-generated=true
+docs/** linguist-documentation=true
+docs/**/*.json linguist-documentation=true
