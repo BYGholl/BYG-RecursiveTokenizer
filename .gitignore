@@ -25,3 +25,13 @@ dist/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local build outputs
+bin/
+build/
+dist/
+o/
+*.exe
+*.obj
+*.ilk
+*.pdb
