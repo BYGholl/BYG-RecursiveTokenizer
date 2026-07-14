@@ -1,0 +1,7 @@
+BYG Recursive Tokenizer v1.0.0
+
+Public release: v1.0.0
+Internal engine: v4.6-real-dataset-benchmark-suite
+Hotfix package: v4.6.2-dataset-suite-zip-size-hotfix
+Format magic: BYG46DB
+Primary compiler: g++ / C++17
