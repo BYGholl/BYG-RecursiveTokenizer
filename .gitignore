@@ -1,0 +1,27 @@
+# Build outputs
+bin/
+o/
+build/
+dist/
+
+# Native artifacts
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# BYG containers and generated archives
+*.byg
+*.zip
+*.tmp
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
